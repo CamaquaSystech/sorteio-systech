@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+		<title>Abertura SysTech&reg;</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1">
+		<meta http-equiv="Content-Language" content="pt-br">
+		<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+		<link rel="shortcut icon" type="image/png" href="lol.png"/>
+		<style>
+				body, html {
+				height: 100%;
+				margin: 0;
+				background-color:black;
+			}
+
+			#img1 {
+				background-image: url("sorteio.png");
+				height: 100%; 
+				width:100%;
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: cover;
+			}
+		</style>
+</head>
+
+<body>
+	<script>
+	
+		var x = document.getElementById("all");
+		var y = document.getElementById("celular");
+		
+		if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) || screen.width <= 480  ) {
+			x.style.display = "none";
+			y.style.display = "block";
+		}
+	</script>
+<p id="celular" style="display:none;">Lamentamos, o site apenas é acessível por um PC. Estamos trabalhando para concertar...</p>
+<div id="all">
+<div id="titulo">
+		<p id="title">SysTech&reg;</p>
+		<p id="title2" align="center">Inauguração + Sorteio!</p>
+</div>
+
+	
+<div>
+		<img id="img1" src="BG2.png" alt></img>
+		<img id="img1" src="BG2.png" alt></img>
+			<div id="imgTxt">A SysTech&reg; Informática terá sua primeira loja inaugurada na cidade de Camaquã.<br />
+			Como boas-vindas a cidade, faremos um sorteio de quatro (4) prêmios, onde terá quatro (4) ganhadores.<br />
+			
+		<ul style="list-style-type:square">
+		<h1>Prêmios:</h1>
+			<li>iPhone X (R$ 10,00 Entrada)</li>
+			<li>Playstation 4 SLIM 500GB (R$ 5,00 Entrada)</li>
+			<li>Notebook Acer | 6 Core i5 4GB |1TB HD (R$ 2,00 Entrada)</li>
+			<li>Vale: R$ 150,00 (válido no dia da abertura) (R$ 1,00 Entrada)</li>
+		</ul>
+		Mais Informações abaixo.
+			
+</div>
+
+<div id="imgTxt2">No dia: <strong>1/10/2018</strong> os quatro ganhadores do sorteio SysTech&reg; Informática serão divulgados (com devida permissão) no domínio: <br><strong>www.systechcamaqua.com.br</strong>,<br>cujo no momento está em desenvolvimento.<br>A loja física será inaugurada dia 15/10/2018.<br>Muitos projetos SysTech&reg; estão em desenvolvimento, mas o tempo é suficiente para criar <br>a verdadeira loja de informática em Camaquã.<br>
+			Até lá, desejamos sorte à todos!
+</div>
+<div align="center"id="about">
+		<h1 style="font-size:20px;">Informações do Sorteio</h1>
+	<ul id="infoUL">
+	<br>
+		<li>Participantes deverão notar seu ID (Canto superior direito da Entrada). O ID é usado para identificação do participante. Caso ocorra a perda do mesmo, <strong>o prêmio não será entregue.</strong></li>
+	<br>	
+		<li>Participantes deverão ficar atento ao <strong>Facebook</strong> da loja SysTech&reg; Informática. Informações sobre o Sorteio SysTech&reg; Informática e sobre ganhadores serão divulgadas na página.</li>
+	<br>
+		<li>Ganhadores <strong>deverão ter sua Entrada (com seu devido ID) para comprovar seu ganho.</strong></li>
+	<br>	
+		<li>O ganhador do vale de R$ 150,00, terá esse valor <strong>apenas no dia da abertura</strong>, não sendo válido antes ou depois desse dia.</li>
+	<br>	
+		<li>A SysTech&reg; Informática não é responsável por nenhum tipo de mau entendimento das informações. Todas as informações estão claras e estão aqui. Em caso de dúvida, pergunte-nos.</li>
+	
+	</ul>
+
+</div>
+		<img id="icon" align="center" src="icone.png" />
+
+<style>
+#infoUL {
+text-align:justify;
+
+}
+
+	#icon {
+		width:10%;
+		height:auto;
+		float:right;
+		overflow:hidden;
+		position: absolute;
+		top: 115vw;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+	#title {
+		font-family: 'Playfair Display', serif;
+		color: white;
+		margin-top:5px;
+		float:left;
+		padding:15px;
+	}
+	#title2 {
+		font-family: 'Playfair Display', serif;
+		color: white;
+		margin-top:5px;
+		float:left;
+		padding:15px;
+		overflow:hidden;
+	}
+	#titulo {
+		width:100%;
+		text-align: center;
+		background-color:#0060ff;
+		font-size: 38px;
+		font-weight: bolder;
+		float: left;
+		}
+	#title::selection {
+		background-color:white;
+		color:#0060ff;
+	
+	}
+	#title2::selection {
+		background-color:white;
+		color:#0060ff;
+	
+	}
+	#imgTxt {
+		position: absolute;
+		top: 45%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		color:white;
+		font-size:1.6vw;
+		text-align:center;
+	}
+	#imgTxt ul {
+		text-align: left;
+	}
+	
+	#imgTxt2 {
+		position: absolute;
+		top: 83vw;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		color:white;
+		font-size:1.6vw;
+		text-align:center;
+	}
+	#imgTxt2 ul {
+		text-align: left;
+	}
+	#about {
+		overflow:scroll;
+		background-color:white;
+		width:40%;
+		height:100px;
+		float:right;
+		position: absolute;
+		top: 100vw;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+	</style>
+</div>
+</div>
+</body>
+
+</html>
